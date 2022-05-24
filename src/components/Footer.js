@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Button } from "./Button";
 import "./Footer.css";
-import "boxicons";
 
 function Footer() {
   return (
@@ -77,15 +76,15 @@ function Footer() {
           <small className="website-rights">lorem</small>
           <div className="social-icons">
             <Link to="/" target="_blank" className="social-icon-link">
-              <box-icon type="logo" name="instagram"></box-icon>
+              <i className="bx bxl-instagram"></i>
             </Link>
 
             <Link to="/" target="_blank" className="social-icon-link">
-              <box-icon name="telegram" type="logo"></box-icon>
+              <i className="bx bxl-telegram"></i>
             </Link>
 
             <Link to="/" target="_blank" className="social-icon-link">
-              <box-icon name="facebook-circle" type="logo"></box-icon>
+              <i className="bx bxl-facebook"></i>
             </Link>
           </div>
         </div>
